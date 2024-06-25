@@ -1,0 +1,96 @@
+{
+    "produtos": {
+        "camisetas": [
+            {
+                "nome": "Comfort T-shirt",
+                "descricao": "Multicolored and sizes. 100% cool cotton fabric for summer. Unisex modeling.",
+                "preco": "$70.00",
+                "imagens": {
+                    "mobile": "./assets/Mobile/produtos/camiseta.png",
+                    "tablet": "./assets/Tablet/produtos/camiseta.png",
+                    "desktop": "./assets/Desktop/produtos/camiseta.png"
+                }
+            },
+            {
+                "nome": "Heart T-shirt",
+                "descricao": "Multicolored and sizes. 100% cool cotton fabric for summer. Unisex modeling.",
+                "preco": "$80.00",
+                "imagens": {
+                    "mobile": "./assets/Camisetas/camiseta-coracao.jpg",
+                    "tablet": "./assets/Camisetas/camiseta-coracao.jpg",
+                    "desktop": "./assets/Camisetas/camiseta-coracao.jpg"
+                }
+            },
+            {
+                "nome": "Savage Social T-shirt",
+                "descricao": "Multicolored and sizes. 100% cool cotton fabric for summer. Unisex modeling.",
+                "preco": "$70.00",
+                "imagens": {
+                    "mobile": "./assets/Camisetas/camiseta-social-savage.jpg",
+                    "tablet": "./assets/Camisetas/camiseta-social-savage.jpg",
+                    "desktop": "./assets/Camisetas/camiseta-social-savage.jpg"
+                }
+            }
+        ],
+        "calcas": [
+            {
+                "nome": "Tailored Pants",
+                "descricao": "Wide Leg tailored model in linen. A piece for a lifetime!",
+                "preco": "$180.00",
+                "imagens": {
+                    "mobile": "./assets/Mobile/produtos/calca.png",
+                    "tablet": "./assets/Tablet/produtos/calca.png",
+                    "desktop": "./assets/Desktop/produtos/calca.png"
+                }
+            }
+        ],
+        "tenis": [
+            {
+                "nome": "Chunky Sneakers",
+                "descricao": "Casual snicker with higher sole and robust modeling. Unisex model.",
+                "preco": "$250.00",
+                "imagens": {
+                    "mobile": "./assets/Mobile/produtos/tenis.png",
+                    "tablet": "./assets/Tablet/produtos/tenis.png",
+                    "desktop": "./assets/Desktop/produtos/tenis.png"
+                }
+            }
+        ],
+        "jaquetas": [
+            {
+                "nome": "Denim Jacket",
+                "descricao": "Oversized unisex model with suede collar. Timeless and authentic!",
+                "preco": "$150.00",
+                "imagens": {
+                    "mobile": "./assets/Mobile/produtos/jaqueta-jeans.png",
+                    "tablet": "./assets/Tablet/produtos/jaqueta-jeans.png",
+                    "desktop": "./assets/Desktop/produtos/jaqueta-jeans.png"
+                }
+            }
+        ],
+        "oculos": [
+            {
+                "nome": "Round Glasses",
+                "descricao": "Graphite metal frame with rounded lenses. No mistake!",
+                "preco": "$120.00",
+                "imagens": {
+                    "mobile": "./assets/Mobile/produtos/oculos.png",
+                    "tablet": "./assets/Tablet/produtos/oculos.png",
+                    "desktop": "./assets/Desktop/produtos/oculos.png"
+                }
+            }
+        ],
+        "bolsas": [
+            {
+                "nome": "Joker Bag",
+                "descricao": "Camel bag in high-durability synthetic leather. Ideal to accompany you for a lifetime!",
+                "preco": "$120.00",
+                "imagens": {
+                    "mobile": "./assets/Mobile/produtos/bolsa.png",
+                    "tablet": "./assets/Tablet/produtos/bolsa.png",
+                    "desktop": "./assets/Desktop/produtos/bolsa.png"
+                }
+            }
+        ]
+    }
+}

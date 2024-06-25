@@ -1,0 +1,96 @@
+{
+  "produtos": {
+    "camisetas": [
+      {
+        "nome": "Camiseta conforto",
+        "descricao": "Multicores e tamanhos. Tecido de algodão 100% fresquinho para o verão. Modelagem unissex.",
+        "preco": "R$70,00",
+        "imagens": {
+          "mobile": "./assets/Mobile/produtos/camiseta.png",
+          "tablet": "./assets/Tablet/produtos/camiseta.png",
+          "desktop": "./assets/Desktop/produtos/camiseta.png"
+        }
+      },
+      {
+        "nome": "Camiseta coração",
+        "descricao": "Multicores e tamanhos. Tecido de algodão 100% fresquinho para o verão. Modelagem unissex.",
+        "preco": "R$80,00",
+        "imagens": {
+          "mobile": "./assets/Camisetas/camiseta-coracao.jpg",
+          "tablet": "./assets/Camisetas/camiseta-coracao.jpg",
+          "desktop": "./assets/Camisetas/camiseta-coracao.jpg"
+        }
+      },
+      {
+        "nome": "Camiseta Social Savage",
+        "descricao": "Multicores e tamanhos. Tecido de algodão 100% fresquinho para o verão. Modelagem unissex.",
+        "preco": "R$70,00",
+        "imagens": {
+          "mobile": "./assets/Camisetas/camiseta-social-savage.jpg",
+          "tablet": "./assets/Camisetas/camiseta-social-savage.jpg",
+          "desktop": "./assets/Camisetas/camiseta-social-savage.jpg"
+        }
+      }
+    ],
+    "calcas": [
+      {
+        "nome": "Calça Alfaiataria",
+        "descricao": "Modelo Wide Leg alfaiataria em linho. Uma peça para vida toda!",
+        "preco": "R$180,00",
+        "imagens": {
+          "mobile": "./assets/Mobile/produtos/calca.png",
+          "tablet": "./assets/Tablet/produtos/calca.png",
+          "desktop": "./assets/Desktop/produtos/calca.png"
+        }
+      }
+    ],
+    "tenis": [
+      {
+        "nome": "Tênis Chunky",
+        "descricao": "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
+        "preco": "R$250,00",
+        "imagens": {
+          "mobile": "./assets/Mobile/produtos/tenis.png",
+          "tablet": "./assets/Tablet/produtos/tenis.png",
+          "desktop": "./assets/Desktop/produtos/tenis.png"
+        }
+      }
+    ],
+    "jaquetas": [
+      {
+        "nome": "Jaqueta Jeans",
+        "descricao": "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
+        "preco": "R$150,00",
+        "imagens": {
+          "mobile": "./assets/Mobile/produtos/jaqueta-jeans.png",
+          "tablet": "./assets/Tablet/produtos/jaqueta-jeans.png",
+          "desktop": "./assets/Desktop/produtos/jaqueta-jeans.png"
+        }
+      }
+    ],
+    "oculos": [
+      {
+        "nome": "Óculos Redondo",
+        "descricao": "Armação metálica em grafite com lentes arredondadas. Sem erro!",
+        "preco": "R$120,00",
+        "imagens": {
+          "mobile": "./assets/Mobile/produtos/oculos.png",
+          "tablet": "./assets/Tablet/produtos/oculos.png",
+          "desktop": "./assets/Desktop/produtos/oculos.png"
+        }
+      }
+    ],
+    "bolsas": [
+      {
+        "nome": "Bolsa coringa",
+        "descricao": "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+        "preco": "R$120,00",
+        "imagens": {
+          "mobile": "./assets/Mobile/produtos/bolsa.png",
+          "tablet": "./assets/Tablet/produtos/bolsa.png",
+          "desktop": "./assets/Desktop/produtos/bolsa.png"
+        }
+      }
+    ]
+  }
+}
