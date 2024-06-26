@@ -89,24 +89,23 @@ export function imprimirUmDeCadaCategoria(produtos) {
 
               <p><b>Tamanho</b></p>
               <form>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio1">
-                  <label class="form-check-label" for="flexRadio1">
-                    P
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio2">
-                  <label class="form-check-label" for="flexRadio2">
-                    M
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadio" id="flexRadio3">
-                  <label class="form-check-label" for="flexRadio3">
-                    G
-                  </label>
-                </div>
+              <label class="radio-container" for="tamanho-p">
+                <input type="radio" name="tamanho-p" value="P" id="tamanho-p"/>
+                <span class="checkmark"></span>
+                <span class="radio-label">P</span>
+              </label>
+
+                   <label class="radio-container" for="tamanho-m">
+                <input type="radio" name="tamanho-m" value="M" id="tamanho-m"/>
+                <span class="checkmark"></span>
+                <span class="radio-label">M</span>
+              </label>
+
+                   <label class="radio-container" for="tamanho-g">
+                <input type="radio" name="tamanho-g" value="G" id="tamanho-g"/>
+                <span class="checkmark"></span>
+                <span class="radio-label">G</span>
+              </label>
               </form>
             </div>
           </div>
