@@ -1,0 +1,26 @@
+.texto-animado::before {
+    content: "camisetas";
+    animation: trocaConteudo 8s infinite;
+}
+
+@keyframes trocaConteudo {
+    20% {
+        content: "bolsas"
+    }
+
+    40% {
+        content: "calçados"
+    }
+
+    60% {
+        content: "casacos"
+    }
+
+    80% {
+        content: "calças"
+    }
+
+    100% {
+        content: "óculos"
+    }
+}

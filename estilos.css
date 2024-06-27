@@ -1,4 +1,6 @@
 @import url("./estilos-animacoes/radio.css");
+@import url("./estilos-animacoes/animation.css");
+@import url("./estilos-animacoes/loader.css");
 
 .texto-menor {
     font-size: 13px;
