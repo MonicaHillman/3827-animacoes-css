@@ -3,6 +3,8 @@
 @import url("./estilos-animacoes/loader.css");
 @import url("./estilos-animacoes/carrossel.css");
 @import url("./estilos-animacoes/select.css");
+@import url("./estilos-animacoes/coracao.css");
+@import url("./estilos-animacoes/parallax.css");
 
 .texto-menor {
     font-size: 13px;

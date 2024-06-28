@@ -1,0 +1,12 @@
+.parallax-banner {
+    height: 500px;
+    background: url("../assets/Desktop/banner2-desktop.png") no-repeat center center;
+    background-size: color;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+

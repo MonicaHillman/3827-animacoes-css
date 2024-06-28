@@ -1,0 +1,15 @@
+.animacao-coracao path {
+    fill: none;
+    stroke: red;
+    stroke-width: 10;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: desenhar 5s forwards;
+}
+
+@keyframes desenhar {
+    to {
+        stroke-dashoffset: 0;
+        fill: red;
+    }
+}
