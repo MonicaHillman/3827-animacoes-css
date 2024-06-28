@@ -1,0 +1,68 @@
+.container-selecionar-personalizado {
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.opcao-selecionada {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opcao-selecionada::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #666;
+    margin-left: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.container-opcoes {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.container-opcoes.abrir {
+    opacity: 1;
+    pointer-events: auto;
+    height: auto;
+}
+
+.opcao {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.opcao:hover {
+    background-color: #f0f0f0;
+}
+
+.container-selecionar-personalizado.abrir .opcao-selecionada::after {
+    transform: rotate(180deg)
+}

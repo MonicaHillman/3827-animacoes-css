@@ -2,6 +2,7 @@
 @import url("./estilos-animacoes/animation.css");
 @import url("./estilos-animacoes/loader.css");
 @import url("./estilos-animacoes/carrossel.css");
+@import url("./estilos-animacoes/select.css");
 
 .texto-menor {
     font-size: 13px;
